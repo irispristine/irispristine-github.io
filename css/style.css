@@ -1,0 +1,27 @@
+ 
+.banner .background_image.background_image_mobile{
+    display: block !important;
+}
+
+.floor_plan_section .nav .nav-item .nav-link{
+    width:90px;
+}
+.floor_plan_section .nav .nav-item{
+    padding: 0px 2px;
+}
+
+@media screen and (max-width: 767px) { 
+    .floor_plan_section .nav{
+        justify-content:unset
+    }
+    .configurations_section .configurations_content .configurations_list .configuration_item{
+        width: 100%;
+        height: unset;
+        overflow: unset;
+        margin-bottom: 20px;
+    }
+    .configurations_section .configurations_content .configurations_list{
+        max-height: unset;
+        display: unset;
+    }
+}
