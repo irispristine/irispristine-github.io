@@ -9,7 +9,9 @@
 .floor_plan_section .nav .nav-item{
     padding: 0px 2px;
 }
-
+.floor_plan_section .tab-content .floor-carousel img{
+    max-width: 100%;
+}
 @media screen and (max-width: 767px) { 
     .floor_plan_section .nav{
         justify-content:unset
